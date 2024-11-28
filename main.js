@@ -4,6 +4,12 @@ window.onload = function() {
 };
 
 
+// navbar responsive for smaller screens
+
+// Toggle hamburger menu on click
+document.getElementById('hamburger').addEventListener('click', function() {
+    document.getElementById('nav-links').classList.toggle('show');
+});
 
 
 
